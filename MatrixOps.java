@@ -1,4 +1,5 @@
 /**
+ * shaiiii
  * A library of basic matrix operations.
  */
 public class MatrixOps {
@@ -61,7 +62,6 @@ public class MatrixOps {
 	 * Returns a matrix which is the transpose of the given matrix.
 	 */
 	public static int[][] transpose(int[][] m) {
-		//// Replace the following statement with your code
 		int [][] tM = new int [m[0].length][m.length];
 		for (int i=0;i<m[0].length;i++) {
 			for(int j=0;j<m.length;j++) {
@@ -102,7 +102,7 @@ public class MatrixOps {
 
         //// Uncomment the statements that you wish to execute.
 		//System.out.println("A + B:");  println(add(a,b)); 
-		System.out.println("A * B:");  println(mult(a,b)); 
+		//System.out.println("A * B:");  println(mult(a,b)); 
 		//System.out.println("I (a unit matrix of size 3):"); println(unit(3));
 		////System.out.println("A * I: "); println(mult(a,unit(3)));
 		
