@@ -1,5 +1,4 @@
 /**
- * shaiiii
  * A library of basic matrix operations.
  */
 public class MatrixOps {
@@ -38,7 +37,7 @@ public class MatrixOps {
 	}
 
 	/**
-	 * Returns the matrix resulting from multuplying the two matrices,
+	 * Returns the matrix resulting from multiplying the two matrices,
 	 * or null if they have incompatible dimensions.
 	 */
 	public static int[][] mult(int[][] m1, int[][] m2) {
